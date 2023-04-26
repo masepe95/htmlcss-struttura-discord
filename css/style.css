@@ -36,8 +36,27 @@ body{
 }
 
 .bigbanner{
-    height: 250px;
-    width: 600px;
+    min-height: 250px;
+    min-width: 600px;
     background-color: fuchsia;
+    border: 2px dashed black;
+}
+
+.sectionwhite{
+    min-height: 400px;
+    background-color: #fff;
+}
+
+.columnlarge{
+    min-height: 300px;
+    min-width: 40%;
+    background-color: blue;
+    border: 2px dashed black;
+}
+
+.columnsmall{
+    min-height: 300px;
+    min-width: 30%;
+    background-color: pink;
     border: 2px dashed black;
 }

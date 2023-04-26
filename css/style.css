@@ -1,7 +1,28 @@
-    /* RESET */
-
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin: auto;
+}
+
+.container-flex{
+    height: 100px;
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headeritem{
+    height: 50%;
+    width: 30%;
+    background-color: goldenrod;
+    border: 2px dashed black;
+    text-align: center;
 }

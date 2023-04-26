@@ -11,18 +11,33 @@ body{
 }
 
 .container-flex{
-    height: 100px;
     display: flex;
-    background-color: lightblue;
     justify-content: center;
     align-items: center;
 
 }
 
+.headercontainer{
+    height: 50px;
+    background-color: lightblue;
+}
+
 .headeritem{
     height: 50%;
-    width: 30%;
+    width: 20%;
     background-color: goldenrod;
     border: 2px dashed black;
     text-align: center;
+}
+
+.jumbo{
+    min-height: 300px;
+    background-color: darkblue ;
+}
+
+.bigbanner{
+    height: 250px;
+    width: 600px;
+    background-color: fuchsia;
+    border: 2px dashed black;
 }

@@ -18,13 +18,13 @@ body{
 }
 
 .headercontainer{
-    height: 50px;
+    height: 100px;
     background-color: lightblue;
 }
 
 .headeritem{
     height: 50%;
-    width: 20%;
+    width: 25%;
     background-color: goldenrod;
     border: 2px dashed black;
     text-align: center;
@@ -76,4 +76,55 @@ body{
     min-height: 500px;
     min-width: 70%;
     border: 2px dashed black;
+}
+
+.footercontainer{
+    min-height: 500px;
+    background-color: black;
+}
+
+.leftbanner{
+    min-height: 450px;
+    min-width: 30%;
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.rightbanner{
+    min-height: 450px;
+    min-width: 40%;
+}
+
+.listitem{
+    background-color: aqua;
+    width: 25%;
+    height: 450px;
+    border: 2px dashed black;
+}
+
+.lastfooter{
+    margin-top: 1px;
+    background-color: black;
+    height: 100px;
+}
+
+.footernav{
+    height: 50%;
+    width: 70%;
+    background-color: goldenrod;
+    border: 2px dashed black;
+    
+}
+
+.container-flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerelement{
+    border: 2px dashed black;
+    background-color: pink;
+    padding: 2px;
+
 }

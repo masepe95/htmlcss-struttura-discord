@@ -35,7 +35,7 @@ body{
     background-color: darkblue ;
 }
 
-.bigbanner{
+.banner{
     min-height: 250px;
     min-width: 600px;
     background-color: fuchsia;
@@ -58,5 +58,22 @@ body{
     min-height: 300px;
     min-width: 30%;
     background-color: pink;
+    border: 2px dashed black;
+}
+
+.sectiongrey{
+    min-height: 400px;
+    background-color: lightgrey;
+}
+
+.bigsection{
+    min-height: 600px;
+    background-color: lightgrey;
+}
+
+.bigbanner{
+    background-color: green;
+    min-height: 500px;
+    min-width: 70%;
     border: 2px dashed black;
 }
